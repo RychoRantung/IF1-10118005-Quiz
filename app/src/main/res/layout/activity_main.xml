@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/bgcolor">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/primergreenbg"
+        android:padding="18dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="24px"
+            android:layout_marginTop="23px"
+            android:src="@drawable/logo1" />
+
+        <TextView
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:text="DigiTeam"
+            android:textColor="@color/neutralgrey"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="29dp"
+            android:text="Digital Together Everyone Achieve More"
+            android:textColor="@color/neutralgrey600"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="47dp"
+            android:text="Jabar Digital Service"
+            android:textColor="@color/neutralgrey600"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="343dp"
+        android:layout_height="95dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:padding="18dp">
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ellipse1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_marginLeft="65dp"
+            android:text="Dias Eka Fredianto, S.Kom, B.IT"
+            android:textColor="@color/neutralgrey"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="UI Designer"
+            android:textSize="12sp"
+            android:layout_marginTop="29dp"
+            android:layout_marginLeft="65dp"
+            android:textColor="@color/neutralgrey600"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="343dp"
+        android:layout_height="237dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/whitebg"
+        android:padding="18dp">
+
+        <TextView
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="65dp"
+            android:text="Jam Kerja Bulan Ini"
+            android:textColor="@color/neutralgrey"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="40dp"
+            android:text="Jam Kerja Bulan Ini: 130.53 Jam"
+            android:textColor="@color/primerblue"
+            android:textSize="14sp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginTop="68dp"
+            android:background="@drawable/primergreenclock">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="130.53 JAM"
+                android:textColor="@color/white"
+                android:drawableEnd="@drawable/clock"
+                android:paddingLeft="9dp"
+                android:textSize="20sp"
+                android:paddingRight="12dp"></TextView>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="112dp"
+            android:text="Batas Minimum Kerja 170 Jam/Bulan"
+            android:textColor="@color/neutralgrey600"
+            android:textSize="14sp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="152dp"
+            android:text="Checkin"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/btnprimergreen800">
+        </Button>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/whitebg"
+        android:padding="18dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maret"
+            android:textSize="16sp"
+            android:textColor="@color/primergreen900"
+            android:layout_marginBottom="8dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+        <View
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/primergreen800bg"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="1dp">
+
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="1dp">
+
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="1dp">
+
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="1dp">
+
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+            <View
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/primergreen800bg"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="1dp">
+
+        <View
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/primergreen800bg"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"/>
+        <View
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/primergreen800bg"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"/>
+        <View
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/primergreen800bg"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"/>
+        <View
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/primergreen800bg"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"/>
+        <View
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/primergreen800bg"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"/>
+
+
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="1dp">
+
+        <View
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/primergreen800bg"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"/>
+        <View
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/primergreen800bg"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"/>
+        <View
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/primergreen800bg"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"/>
+        <View
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/primergreen800bg"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"/>
+        <View
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/primergreen800bg"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"/>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="April"
+                android:textSize="16sp"
+                android:textColor="@color/primergreen900"
+                android:layout_marginBottom="8dp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="1dp">
+
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="1dp">
+
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="1dp">
+
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="1dp">
+
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="1dp">
+
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="1dp">
+
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+                <View
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/primergreen800bg"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="348dp"
+        android:layout_height="234dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:padding="18dp">
+
+        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:src="@drawable/hadir" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:text="Izin"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="140dp"
+            android:src="@drawable/icon2" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:text="Kehadiran"
+            android:layout_marginStart="125dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="260dp"
+            android:src="@drawable/icon3" />
+
+        <TextView
+
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="255dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:text="Laporan"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="260dp"
+            android:src="@drawable/icon5" />
+
+        <TextView
+
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="255dp"
+            android:layout_marginTop="165dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:text="Wiki"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="110dp"
+            android:src="@drawable/icon4" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="165dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:text="Booking"
+            android:layout_marginStart="135dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="110dp"
+            android:src="@drawable/icon3" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="165dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:text="Booking"
+            android:layout_marginStart="135dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="110dp"
+            android:src="@drawable/icon4" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="165dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:text="Agenda"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
